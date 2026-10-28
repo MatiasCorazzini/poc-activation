@@ -1,0 +1,17 @@
+{
+  "name": "@poc/kafka-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/microservices": "^10.3.8",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^8.3.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8"
+  }
+}
